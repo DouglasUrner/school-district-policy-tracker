@@ -1,0 +1,5 @@
+# policies.txt: global (statewide) list of policies to watch.
+# Individual districts that use non-standard naming can have their own
+# policies-<district short name>.txt files.
+# policy name|policy short title|policy official title
+3207|HIB Policy|Prohibition of Harassment, Intimidation and Bullying of Students
