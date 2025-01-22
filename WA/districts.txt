@@ -1,5 +1,5 @@
 # districts.txt: List of school districts being tracked & related info
 # short name|official name|longitude|lattitude|website|policy root
 PSD|Peninsula School District|||psd401.net|
-SKSD|South Kitsap School District|||skschools.org|
-WASDA|Washington State School Directors Association|||||
+SKSD|South Kitsap School District|||skschools.org|about-us/policies-procedures/policy-details/~board/policies-procedures/post/
+WSSDA|Washington State School Directors Association|||wssda.org||
