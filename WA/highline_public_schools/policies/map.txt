@@ -1,0 +1,32 @@
+# Highline Public Schools
+#
+# policy map: convert a generic identifer, for example a policy ID number,
+#               into the name found on the district website. Map files are
+#               named "map-<cms>.txt" where "cms" matches the entry for the
+#               district -- assuming that many districts will be purchasing the
+#               CMS they use and that these files can be shared. The code that
+#               reads the map files ignores everything after the hypen, but
+#               special cases "map-local.txt" and reads it after the other
+#               map files so that a general CMS map can be customized.
+#
+# id|path|template
+#
+# Where:
+# - id: is either '*' (for the default values) or an ID found in the
+#   corresponding target file. The default entry should be listed first as
+#   it is used to populate the values that are used to generate the object
+#   path, any values found in a later entry that matches the id are used to
+#   overwrite the default values.
+# - path: is the website path to documents of this types. If the path starts
+#         with:
+#         * "http": it is used as the base URL
+#         * "/": it is used as the base path at the district website
+#         * anything else: it is appended to the root path from districts.txt,
+#           so a blank value means the root path is used unchanged
+#         the result of processing the template is appended to generate the
+#         full URL to be retrieved.
+# - template: is a Python string Template for generating the document name.
+#
+*||policy-${id}-${sname}
+3207||policy-3207-prohibition-of-harassment-intimidation-or-bullying
+3250||policy-3250-student-records-protection-of-the-rights-and-privacy-of-parents-and-students
