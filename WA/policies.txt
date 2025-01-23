@@ -1,6 +1,14 @@
+# Washington State
+#
 # policies.txt: global (statewide) list of policies to watch.
-# Individual districts that use non-standard naming can have their own
-# policies-<district short name>.txt files.
 # policy name|policy short title|policy official title
-3207|HIB Policy|Prohibition of Harassment, Intimidation and Bullying of Students
+3205|Sexual Harassment Of Students Prohibited|Sexual Harassment Of Students Prohibited
+3207|Prohibition of Harassment Intimidation and Bullying|Prohibition of Harassment, Intimidation and Bullying of Students
+3210|Nondiscrimination|Nondiscrimination
 3211|Gender Inclusive Schools|Gender Inclusive Schools
+3220|Freedom of Expression|Freedom of Expression
+3223|Freedom Of Assembly|Freedom Of Assembly
+3224|Student Dress|Student Dress
+3230|Student Privacy|Student Privacy
+3231|Search Of Students|Search Of Students
+3250|Student Records: Protection Of The Rights And Privacy Of Parents And Students|Student Records: Protection Of The Rights And Privacy Of Parents And Students

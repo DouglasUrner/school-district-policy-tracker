@@ -1,5 +1,13 @@
 # districts.txt: List of school districts being tracked & related info
-# short name|official name|longitude|lattitude|website|policy root
-PSD|Peninsula School District|||psd401.net|
-SKSD|South Kitsap School District|||skschools.org|about-us/policies-procedures/policy-details/~board/policies-procedures/post/
-WSSDA|Washington State School Directors Association|||wssda.org||
+# 
+# Fields:
+# - tracking: a comma seperated list of the types of information being tracked. The name gets
+#   used to create a directory to hold the downloads, and is also used as the basename of the
+#   configuration file for those items.
+# - cms: an identifier of the content management system the district (appears to) uses. Used to
+#   select defaults, e.g., the map files.
+# short name|official name|longitude|lattitude|website|tracking|cms
+HPS|Highline Public Schools|||www.highlineschools.org|about/board-policies/policy-details/~board/board-policies/post/|
+#PSD|Peninsula School District|||psd401.net|
+#SKSD|South Kitsap School District|||skschools.org|about-us/policies-procedures/policy-details/~board/policies-procedures/post/
+#WSSDA|Washington State School Directors Association|||wssda.org||

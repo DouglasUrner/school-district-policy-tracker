@@ -1,2 +1,3 @@
 # States being watched
+# OR|Oregon
 WA|Washington
