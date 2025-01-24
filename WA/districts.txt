@@ -9,5 +9,5 @@
 # short name|official name|longitude|lattitude|website|tracking|cms
 HPS|Highline Public Schools|||www.highlineschools.org|about/board-policies/policy-details/~board/board-policies/post/|
 #PSD|Peninsula School District|||psd401.net|
-#SKSD|South Kitsap School District|||skschools.org|about-us/policies-procedures/policy-details/~board/policies-procedures/post/
+SKSD|South Kitsap School District|||skschools.org|about-us/policies-procedures/policy-details/~board/policies-procedures/post/
 #WSSDA|Washington State School Directors Association|||wssda.org||
